@@ -9243,14 +9243,14 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 7087,
+    "difficulty": 6377,
     "durability": 70,
     "level": 320,
-    "maxQuality": 31667,
+    "maxQuality": 28506,
     "name": {
-      "cn": "Ala Mhigan Fiber[TEST 1.8x]",
+      "cn": "Ala Mhigan Fiber",
       "de": "Mhigisches Mischgewebe",
-      "en": "Ala Mhigan Fiber[TEST 1.8x]",
+      "en": "Ala Mhigan Fiber",
       "fr": "Fibre mhigoise",
       "ja": "アラミガンファイバー"
     },
@@ -9393,17 +9393,47 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3937,
+    "difficulty": 6377,
     "durability": 70,
     "level": 320,
-    "maxQuality": 17593,
+    "maxQuality": 28506,
     "name": {
-      "cn": "Snailfish Oil[TEST 1x]",
+      "cn": "Snailfish Oil",
       "de": "Scheibenbauchöl",
-      "en": "Snailfish Oil[TEST 1x]",
+      "en": "Snailfish Oil",
       "fr": "Huile de poisson-limace",
       "ja": "ビクニンオイル"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3937,
+    "durability": 70,
+    "level": 340,
+    "maxQuality": 17593,
+    "name": {
+      "cn": "Test Battle Gear",
+      "de": "Scheibenbauchöl",
+      "en": "Testkampfausrüstung",
+      "fr": "Test de combat",
+      "ja": "テストバトルギア"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7087,
+    "durability": 70,
+    "level": 340,
+    "maxQuality": 31667,
+    "name": {
+      "cn": "Test Crafting Gear",
+      "de": "Bastelausrüstung testen",
+      "en": "Test Crafting Gear",
+      "fr": "Test d'artisanat",
+      "ja": "テスト工作歯車"
+    },
+    "stars": 3
   }
 ]
