@@ -108,6 +108,11 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
     if (recipeLevel === 320) {
         levelCorrectionFactor -= 0.015;
     }
+    
+    // 70_3star recipe penalties prediction
+    if (recipeLevel > 320) {
+        levelCorrectionFactor -= 0.015;
+    }
 
     levelCorrectedProgress = (1 + levelCorrectionFactor) * baseProgress;
 
@@ -148,6 +153,26 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     if (recipeLevel === 292.75) {
         levelCorrectionFactor += 0.025;
     }
+    
+    // 70_3star prediction added penalties #swag
+    if (recipeLevel === 340 or 350) {
+        levelCorrectionFactor -= 0.004;
+    }
+    // Ingen 1
+    if (recipeLevel === 293.535) {
+        levelCorrectionFactor += 0.035;
+    }
+    if (recipeLevel === 294.315) {
+        levelCorrectionFactor += 0.025;
+    }
+    // Ingen 2
+    if (recipeLevel === 292.925) {
+        levelCorrectionFactor += 0.035;
+    }
+    if (recipeLevel === 293.5) {
+        levelCorrectionFactor += 0.025;
+    }
+
 
     levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor) * (1 + recipeLevelFactor);
 
@@ -1832,6 +1857,8 @@ var Ing1RecipeLevelTable = {
     290: 280,   // 70
     300: 291.185, // 70_1star
     320: 292.75, // 70_2star
+    340: 293.535, // rough 3 star predictions. 
+    350: 294.315, // This might be a little too high but its the differnece between 1 and 2 star added onto 2 star
 };
 
 var Ing2RecipeLevelTable = {
@@ -1877,7 +1904,9 @@ var Ing2RecipeLevelTable = {
     288: 276,   // 69
     290: 279,   // 70
     300: 290,   // 70_1star
-    320: 291.95,   // 70_2star
+    320: 291.95,   // 70_2star 
+    340: 292.925, // Rough predictions again
+    350: 293.5,  // Rough predictions
 };
 
 var NymeaisWheelTable = {
