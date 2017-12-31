@@ -154,8 +154,11 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
         levelCorrectionFactor += 0.025;
     }
     
-    // 70_3star prediction added penalties #swag
-    if (recipeLevel === 340 or 350) {
+    // 70_3star prediction added penalties #aaa
+    if (recipeLevel === 340) {
+        levelCorrectionFactor -= 0.004;
+    }
+    if (recipeLevel === 350) {
         levelCorrectionFactor -= 0.004;
     }
     // Ingen 1
