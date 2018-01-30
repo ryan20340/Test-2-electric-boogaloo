@@ -9438,31 +9438,31 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 4134,
+    "difficulty": 2365,
     "durability": 70,
     "level": 350,
-    "maxQuality": 18476,
+    "maxQuality": 20335,
     "name": {
-      "cn": "[rLvl 350]Test Battle Gear",
-      "de": "[rLvl 350]Testkampfausrüstung",
-      "en": "[rLvl 350]Test Battle Gear",
-      "fr": "[rLvl 350]Test de combat",
-      "ja": "[rLvl 350]テストバトルギア"
+      "cn": "2365/20335",
+      "de": "2365/20335",
+      "en": "2365/20335",
+      "fr": "2365/20335",
+      "ja": "2365/20335"
     },
     "stars": 3
   },
   {
     "baseLevel": 70,
-    "difficulty": 7441,
+    "difficulty": 3548,
     "durability": 70,
     "level": 350,
-    "maxQuality": 33257,
+    "maxQuality": 25881,
     "name": {
-      "cn": "[rLvl 350]Test Crafting Gear",
-      "de": "[rLvl 350]Bastelausrüstung testen",
-      "en": "[rLvl 350]Test Crafting Gear",
-      "fr": "[rLvl 350]Test d'artisanat",
-      "ja": "[rLvl 350]テスト工作歯車"
+      "cn": "3548/25881",
+      "de": "3548/25881",
+      "en": "3548/25881",
+      "fr": "3548/25881",
+      "ja": "3548/25881"
     },
     "stars": 3
   }
